@@ -2,7 +2,9 @@
 
 Run ```setup.sh``` to install
 
-Strongly inspired by memcached service support for multi config files.
+# Changes
+
+Add support for multi redis services
 
 # How to setup the config files
 
@@ -30,3 +32,7 @@ service redis-server start server1 # start server1
 service redis-server stop # stop all
 ...
 ```
+
+# Notes
+
+Strongly inspired by memcached service support for multi config files.

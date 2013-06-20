@@ -1,9 +1,9 @@
 #!/bin/bash
 #######################
-# Redis-server init script setup
+# HaProxy init script setup
 #######################
 
-NAME=redis-server
+NAME=haproxy
 
 # Backup previous init script
 echo "Backup original init script to /etc/init.d/${NAME}.orig"
