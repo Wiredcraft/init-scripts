@@ -2,11 +2,11 @@
 
 Run ```setup.sh``` to install
 
-# Changes
+## Changes
 
 Add support for multi redis services
 
-# How to setup the config files
+## How to setup the config files
 
 ```
 cp /etc/redis/redis.conf /etc/redis/redis_server1.conf
@@ -33,6 +33,6 @@ service redis-server stop # stop all
 ...
 ```
 
-# Notes
+## Notes
 
 Strongly inspired by memcached service support for multi config files.
